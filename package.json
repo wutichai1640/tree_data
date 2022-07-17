@@ -1,0 +1,29 @@
+{
+  "name": "tree_data",
+  "version": "1.0.0",
+  "description": "ส่งข้อมูลต้นไม้ในรูปแบบ json ที่ประกอบไปด้วย ภาษาไทย อังกฤษ มีน้ำหนัก ราคา แต่ละต้น ต้นนั้นมาจากพ่อกับแม่พันธุ์อะไร สูงสุด 3 รุ่น \r ต้องสามารถข้อมูลนำเข้า มากกว่า 1 ต้น หรือต้นเดียวก็ได้",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wutichai1640/tree_data.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wutichai1640/tree_data/issues"
+  },
+  "homepage": "https://github.com/wutichai1640/tree_data#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mysql": "^2.18.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
